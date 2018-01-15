@@ -1,0 +1,7 @@
+package: github.com/marcsauter/setdate
+import:
+- package: github.com/rwcarlsen/goexif
+  subpackages:
+  - exif
+- package: github.com/pkg/errors
+  version: ~0.8.0

@@ -1,0 +1,11 @@
+hash: b398558de5e0dba6f6d32dbed0ee5a9a55fa90b2d5003eaf0035e8155e3858ff
+updated: 2018-01-13T20:45:17.732786+01:00
+imports:
+- name: github.com/pkg/errors
+  version: 645ef00459ed84a119197bfb8d8205042c6df63d
+- name: github.com/rwcarlsen/goexif
+  version: 17202558c8d9c3fd047859f1a5e73fd9ae709187
+  subpackages:
+  - exif
+  - tiff
+testImports: []
