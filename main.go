@@ -26,7 +26,8 @@ func main() {
 
 	root := flag.Arg(0)
 	if len(root) == 0 {
-		log.Fatalf("usage: %s PATH\n", os.Args[0])
+		fmt.Printf("starting at PATH set recursively the atime and mtime of all image files to its EXIF DateTime\n\nusage: %s PATH\n\n", os.Args[0])
+		os.Exit(1)
 	}
 
 	info, err := os.Stat(root)
